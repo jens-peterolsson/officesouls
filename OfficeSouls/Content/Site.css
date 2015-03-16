@@ -1,6 +1,5 @@
 ﻿html, body {
     padding: 0;
-    height: 90% 
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -38,4 +37,8 @@ input[type="checkbox"].input-validation-error {
 
 .validation-summary-valid {
     display: none;
+}
+
+.navbar-collapse {
+    color: white;
 }
