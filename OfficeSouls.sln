@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.OfficeSouls.Web", "Itbudet.OfficeSouls.Web\Itbudet.OfficeSouls.Web.csproj", "{0824CCB9-DDEB-405C-AC18-FE6EA60CE135}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.Nlg", "Itbudet.Nlg\Itbudet.Nlg.csproj", "{08DF449D-E77D-4E79-A96C-320EBBCEF7BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.Nlg.Tests", "Itbudet.Nlg.Tests\Itbudet.Nlg.Tests.csproj", "{1CB97218-1ED0-45BE-BA04-F0EEFD7C97B0}"
@@ -17,16 +15,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.OfficeSouls.Domain"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.OfficeSouls.Domain.Tests", "Itbudet.OfficeSouls.Domain.Tests\Itbudet.OfficeSouls.Domain.Tests.csproj", "{EE51E46B-F49F-41E4-AEA5-2F314F66DAF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.OfficeSouls.Web.Api", "Itbudet.OfficeSouls.Web.Api\Itbudet.OfficeSouls.Web.Api.csproj", "{17E81076-4293-48BC-85F4-8D962D574003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.OfficeSouls.Web.Ui", "Itbudet.OfficeSouls.Web.Ui\Itbudet.OfficeSouls.Web.Ui.csproj", "{3E7E4688-70DA-4300-8E47-763AB8FBA798}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0824CCB9-DDEB-405C-AC18-FE6EA60CE135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0824CCB9-DDEB-405C-AC18-FE6EA60CE135}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0824CCB9-DDEB-405C-AC18-FE6EA60CE135}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0824CCB9-DDEB-405C-AC18-FE6EA60CE135}.Release|Any CPU.Build.0 = Release|Any CPU
 		{08DF449D-E77D-4E79-A96C-320EBBCEF7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{08DF449D-E77D-4E79-A96C-320EBBCEF7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08DF449D-E77D-4E79-A96C-320EBBCEF7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +49,14 @@ Global
 		{EE51E46B-F49F-41E4-AEA5-2F314F66DAF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE51E46B-F49F-41E4-AEA5-2F314F66DAF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE51E46B-F49F-41E4-AEA5-2F314F66DAF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E81076-4293-48BC-85F4-8D962D574003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E81076-4293-48BC-85F4-8D962D574003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E81076-4293-48BC-85F4-8D962D574003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E81076-4293-48BC-85F4-8D962D574003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7E4688-70DA-4300-8E47-763AB8FBA798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7E4688-70DA-4300-8E47-763AB8FBA798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7E4688-70DA-4300-8E47-763AB8FBA798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7E4688-70DA-4300-8E47-763AB8FBA798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
