@@ -10,6 +10,7 @@ namespace Itbudet.OfficeSouls.Web.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Duh";
             return View();
         }
 
