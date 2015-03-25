@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.DecisionTrees", "It
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.OfficeSouls.Domain", "Itbudet.OfficeSouls.Domain\Itbudet.OfficeSouls.Domain.csproj", "{3742562A-9ED4-47F1-A5F3-4B12F1848527}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.OfficeSouls.Domain.Tests", "Itbudet.OfficeSouls.Domain.Tests\Itbudet.OfficeSouls.Domain.Tests.csproj", "{EE51E46B-F49F-41E4-AEA5-2F314F66DAF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{3742562A-9ED4-47F1-A5F3-4B12F1848527}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3742562A-9ED4-47F1-A5F3-4B12F1848527}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3742562A-9ED4-47F1-A5F3-4B12F1848527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE51E46B-F49F-41E4-AEA5-2F314F66DAF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE51E46B-F49F-41E4-AEA5-2F314F66DAF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE51E46B-F49F-41E4-AEA5-2F314F66DAF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE51E46B-F49F-41E4-AEA5-2F314F66DAF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
