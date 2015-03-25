@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeSouls", "OfficeSouls\OfficeSouls.csproj", "{0824CCB9-DDEB-405C-AC18-FE6EA60CE135}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.OfficeSouls.Web", "Itbudet.OfficeSouls.Web\Itbudet.OfficeSouls.Web.csproj", "{0824CCB9-DDEB-405C-AC18-FE6EA60CE135}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.Nlg", "Itbudet.Nlg\Itbudet.Nlg.csproj", "{08DF449D-E77D-4E79-A96C-320EBBCEF7BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.Nlg.Tests", "Itbudet.Nlg.Tests\Itbudet.Nlg.Tests.csproj", "{1CB97218-1ED0-45BE-BA04-F0EEFD7C97B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.DecisionTrees.Test", "Itbudet.DecisionTrees.Test\Itbudet.DecisionTrees.Test.csproj", "{0893DD8B-01FA-4F72-836E-4C61FBA699C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.DecisionTrees", "Itbudet.DecisionTrees\Itbudet.DecisionTrees.csproj", "{B75830AD-D24A-4631-8B44-D5B74022B2C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itbudet.OfficeSouls.Domain", "Itbudet.OfficeSouls.Domain\Itbudet.OfficeSouls.Domain.csproj", "{3742562A-9ED4-47F1-A5F3-4B12F1848527}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{1CB97218-1ED0-45BE-BA04-F0EEFD7C97B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CB97218-1ED0-45BE-BA04-F0EEFD7C97B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CB97218-1ED0-45BE-BA04-F0EEFD7C97B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0893DD8B-01FA-4F72-836E-4C61FBA699C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0893DD8B-01FA-4F72-836E-4C61FBA699C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0893DD8B-01FA-4F72-836E-4C61FBA699C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0893DD8B-01FA-4F72-836E-4C61FBA699C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75830AD-D24A-4631-8B44-D5B74022B2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75830AD-D24A-4631-8B44-D5B74022B2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75830AD-D24A-4631-8B44-D5B74022B2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75830AD-D24A-4631-8B44-D5B74022B2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3742562A-9ED4-47F1-A5F3-4B12F1848527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3742562A-9ED4-47F1-A5F3-4B12F1848527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3742562A-9ED4-47F1-A5F3-4B12F1848527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3742562A-9ED4-47F1-A5F3-4B12F1848527}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
